@@ -1,0 +1,19 @@
+{
+  "graphs": ["import", "call", "dependency", "schema", "config", "cfg", "resource", "routing"],
+  "languages": ["python", "typescript"],
+  "tools": {
+    "python_dir": "tools/python/",
+    "node_dir": "tools/node/",
+    "timeout_seconds": 120
+  },
+  "detection": {
+    "categories": ["SRF", "PIA", "DHI", "BCI", "RCF", "CFC", "CCV", "SSR"],
+    "stdlib_path": "tools/python/stdlib_modules.json",
+    "registry_validation": true,
+    "registry_cache_path": ".registry_cache.json"
+  },
+  "output": {
+    "format": "json",
+    "verbose": false
+  }
+}
